@@ -1,1 +1,1 @@
-# GUIProject
+# Student Management System
