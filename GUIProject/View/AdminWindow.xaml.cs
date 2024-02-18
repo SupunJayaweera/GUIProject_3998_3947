@@ -17,9 +17,7 @@ using System.Windows.Threading;
 
 namespace GUIProject.View
 {
-    /// <summary>
-    /// Interaction logic for AdminWindow.xaml
-    /// </summary>
+    
     public partial class AdminWindow : Window
     {
         private List<User> DatabaseUsers;
