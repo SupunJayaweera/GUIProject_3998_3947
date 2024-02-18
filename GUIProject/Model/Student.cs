@@ -35,7 +35,7 @@ namespace GUIProject.Model
             double Sub2_grade;
             double Sub3_grade;
 
-            double gpa;
+            double gpa; // making the logic of GPA calculation
             /////////////////////////////////////////////////
             if (Subject_1 > 75)
             {
@@ -101,7 +101,7 @@ namespace GUIProject.Model
                 gpa = totalPoints / totalCredits;
             }
 
-            return Math.Round(gpa,2);
+            return Math.Round(gpa,4);
         }
     }
 }
